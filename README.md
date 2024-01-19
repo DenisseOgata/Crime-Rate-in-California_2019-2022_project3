@@ -12,7 +12,7 @@
 The crime rate in California over the past few years got us equally concerned and scared for our own safety and prompted us to delve deep into this topic for our project. It appears that crimes have escalated in the state, including burglary, aggravated assault, racial/hate crimes, vehicle thefts, property thefts, etc. These crimes have affected many known people and lead to well-known stores getting shut down. The patterns piqued our interest and incited an urge to uncover crime rate trends in the state of California. This paved way to creating a Crime Mapping Tool, thus providing a well-curated and unique interactive visual dashboard for utilization by California residents.
 
 ## Project Overview:
-* Collected crime data from US DOJ and census data from Census Bureau websites with the intention of analyzing crime patterns in California pre-pandemic and post-pandemic for the years 2019 through 2022.
+* Collected crime data from US Department of Justice and census data from Census Bureau websites with the intention of analyzing crime patterns in California pre-pandemic and post-pandemic for the years 2019 through 2022.
 * Combined and cleaned the csv files and removed unwanted columns
 * Further clean up of data was done using pandas, cleaned and formatted data (renamed column names, converted int to string data type for month column, dropped NAN values, dropped unwanted columns.)
 * Finally converted the pandas data frame into an sqlite file to use as our backend database.
